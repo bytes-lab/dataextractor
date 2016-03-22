@@ -1,0 +1,3 @@
+Data extracter from any format of file like MS files, JPG, PDF, ZIP,...
+
+Written in C++

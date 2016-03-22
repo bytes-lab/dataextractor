@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataExtractor", "DataExtractor.vcxproj", "{8532B232-6B78-4C3A-8670-B054C272E391}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8532B232-6B78-4C3A-8670-B054C272E391}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8532B232-6B78-4C3A-8670-B054C272E391}.Debug|Win32.Build.0 = Debug|Win32
+		{8532B232-6B78-4C3A-8670-B054C272E391}.Release|Win32.ActiveCfg = Release|Win32
+		{8532B232-6B78-4C3A-8670-B054C272E391}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

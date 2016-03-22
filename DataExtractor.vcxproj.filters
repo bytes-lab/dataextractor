@@ -1,0 +1,683 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Extern Files">
+      <UniqueIdentifier>{ffa4c395-94be-4d25-ab08-9feb210b70ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extern Files\zlib">
+      <UniqueIdentifier>{1a516d33-11ea-4ef2-ac09-1c44504bbec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extern Files\fitz">
+      <UniqueIdentifier>{cf5c8b0f-91b1-435d-a2ec-c325f536f219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extern Files\json">
+      <UniqueIdentifier>{b9dfe6fa-db0e-48e2-a59b-73891ca00057}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extern Files\xml">
+      <UniqueIdentifier>{e89a5917-86b4-4c60-a9cd-9b5b83066dde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extern Files\zip">
+      <UniqueIdentifier>{04f870b8-5e9e-4824-9125-9c80ad95ed2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extern Files\pdf">
+      <UniqueIdentifier>{c3917a94-8082-4cf7-80bc-e03281e3d973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extern Files\rtf">
+      <UniqueIdentifier>{bc190e99-5af5-473d-9b74-42253493e984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extern Files\exiv">
+      <UniqueIdentifier>{09f6fa32-55e4-4d1a-b228-5d70f04099d9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inffast.h">
+      <Filter>Extern Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inffixed.h">
+      <Filter>Extern Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inflate.h">
+      <Filter>Extern Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zconf.h">
+      <Filter>Extern Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zlib.h">
+      <Filter>Extern Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zutil.h">
+      <Filter>Extern Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="fitz\fitz.h">
+      <Filter>Extern Files\fitz</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\Markup.h">
+      <Filter>Extern Files\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="Json\JSON.h">
+      <Filter>Extern Files\json</Filter>
+    </ClInclude>
+    <ClInclude Include="Json\JSONValue.h">
+      <Filter>Extern Files\json</Filter>
+    </ClInclude>
+    <ClInclude Include="pdf\data_encodings.h">
+      <Filter>Extern Files\pdf</Filter>
+    </ClInclude>
+    <ClInclude Include="pdf\data_glyphlist.h">
+      <Filter>Extern Files\pdf</Filter>
+    </ClInclude>
+    <ClInclude Include="pdf\mupdf.h">
+      <Filter>Extern Files\pdf</Filter>
+    </ClInclude>
+    <ClInclude Include="DEFolder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DEFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OfficeFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PdfFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PptFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PptxFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XlsFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XlsxFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DocFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DocxFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TxtFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RtfFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtf\rtfdecl.h">
+      <Filter>Extern Files\rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="rtf\rtftype.h">
+      <Filter>Extern Files\rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JpegFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TiffFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BmpFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\basicio.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\bmpimage.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\canonmn_int.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\convert.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\datasets.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\easyaccess.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\error.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\exif.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\exiv2.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\exiv2app.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\fujimn_int.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\futils.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\getopt_win32.h">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\i18n.h">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\image.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\iptc.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\jpgimage.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\makernote_int.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\metadatum.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\minoltamn_int.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\nikonmn_int.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\olympusmn_int.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\panasonicmn_int.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\pentaxmn_int.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\preview.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\private.h">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\properties.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\rcsid_int.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\samsungmn_int.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\sigmamn_int.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\sonymn_int.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\tags.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\tags_int.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\tiffcomposite_int.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\tifffwd_int.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\tiffimage.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\tiffimage_int.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\tiffvisitor_int.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\timegm.h">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\types.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\tzfile.h">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\utils.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\value.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\version.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\xmp.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\xmpsidecar.hpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="exiv\exv_msvc.h">
+      <Filter>Extern Files\exiv</Filter>
+    </ClInclude>
+    <ClInclude Include="zip\unzip.h">
+      <Filter>Extern Files\zip</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\crc32.h">
+      <Filter>Extern Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\deflate.h">
+      <Filter>Extern Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\gzguts.h">
+      <Filter>Extern Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inftrees.h">
+      <Filter>Extern Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\trees.h">
+      <Filter>Extern Files\zlib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\adler32.c">
+      <Filter>Extern Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\infback.c">
+      <Filter>Extern Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inffast.c">
+      <Filter>Extern Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inflate.c">
+      <Filter>Extern Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\uncompr.c">
+      <Filter>Extern Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\zutil.c">
+      <Filter>Extern Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="fitz\base_error.c">
+      <Filter>Extern Files\fitz</Filter>
+    </ClCompile>
+    <ClCompile Include="fitz\base_geometry.c">
+      <Filter>Extern Files\fitz</Filter>
+    </ClCompile>
+    <ClCompile Include="fitz\base_getopt.c">
+      <Filter>Extern Files\fitz</Filter>
+    </ClCompile>
+    <ClCompile Include="fitz\base_hash.c">
+      <Filter>Extern Files\fitz</Filter>
+    </ClCompile>
+    <ClCompile Include="fitz\base_memory.c">
+      <Filter>Extern Files\fitz</Filter>
+    </ClCompile>
+    <ClCompile Include="fitz\base_object.c">
+      <Filter>Extern Files\fitz</Filter>
+    </ClCompile>
+    <ClCompile Include="fitz\base_string.c">
+      <Filter>Extern Files\fitz</Filter>
+    </ClCompile>
+    <ClCompile Include="fitz\base_time.c">
+      <Filter>Extern Files\fitz</Filter>
+    </ClCompile>
+    <ClCompile Include="fitz\crypt_aes.c">
+      <Filter>Extern Files\fitz</Filter>
+    </ClCompile>
+    <ClCompile Include="fitz\crypt_arc4.c">
+      <Filter>Extern Files\fitz</Filter>
+    </ClCompile>
+    <ClCompile Include="fitz\crypt_md5.c">
+      <Filter>Extern Files\fitz</Filter>
+    </ClCompile>
+    <ClCompile Include="fitz\crypt_sha2.c">
+      <Filter>Extern Files\fitz</Filter>
+    </ClCompile>
+    <ClCompile Include="fitz\dev_null.c">
+      <Filter>Extern Files\fitz</Filter>
+    </ClCompile>
+    <ClCompile Include="fitz\filt_basic.c">
+      <Filter>Extern Files\fitz</Filter>
+    </ClCompile>
+    <ClCompile Include="fitz\filt_faxd.c">
+      <Filter>Extern Files\fitz</Filter>
+    </ClCompile>
+    <ClCompile Include="fitz\filt_flate.c">
+      <Filter>Extern Files\fitz</Filter>
+    </ClCompile>
+    <ClCompile Include="fitz\filt_lzwd.c">
+      <Filter>Extern Files\fitz</Filter>
+    </ClCompile>
+    <ClCompile Include="fitz\filt_predict.c">
+      <Filter>Extern Files\fitz</Filter>
+    </ClCompile>
+    <ClCompile Include="fitz\obj_print.c">
+      <Filter>Extern Files\fitz</Filter>
+    </ClCompile>
+    <ClCompile Include="fitz\res_bitmap.c">
+      <Filter>Extern Files\fitz</Filter>
+    </ClCompile>
+    <ClCompile Include="fitz\res_path.c">
+      <Filter>Extern Files\fitz</Filter>
+    </ClCompile>
+    <ClCompile Include="fitz\stm_buffer.c">
+      <Filter>Extern Files\fitz</Filter>
+    </ClCompile>
+    <ClCompile Include="fitz\stm_open.c">
+      <Filter>Extern Files\fitz</Filter>
+    </ClCompile>
+    <ClCompile Include="fitz\stm_read.c">
+      <Filter>Extern Files\fitz</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\Markup.cpp">
+      <Filter>Extern Files\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="Json\JSON.cpp">
+      <Filter>Extern Files\json</Filter>
+    </ClCompile>
+    <ClCompile Include="Json\JSONValue.cpp">
+      <Filter>Extern Files\json</Filter>
+    </ClCompile>
+    <ClCompile Include="pdf\pdf_cmap.c">
+      <Filter>Extern Files\pdf</Filter>
+    </ClCompile>
+    <ClCompile Include="pdf\pdf_cmap_parse.c">
+      <Filter>Extern Files\pdf</Filter>
+    </ClCompile>
+    <ClCompile Include="pdf\pdf_crypt.c">
+      <Filter>Extern Files\pdf</Filter>
+    </ClCompile>
+    <ClCompile Include="pdf\pdf_encoding.c">
+      <Filter>Extern Files\pdf</Filter>
+    </ClCompile>
+    <ClCompile Include="pdf\pdf_function.c">
+      <Filter>Extern Files\pdf</Filter>
+    </ClCompile>
+    <ClCompile Include="pdf\pdf_lex.c">
+      <Filter>Extern Files\pdf</Filter>
+    </ClCompile>
+    <ClCompile Include="pdf\pdf_metrics.c">
+      <Filter>Extern Files\pdf</Filter>
+    </ClCompile>
+    <ClCompile Include="pdf\pdf_nametree.c">
+      <Filter>Extern Files\pdf</Filter>
+    </ClCompile>
+    <ClCompile Include="pdf\pdf_parse.c">
+      <Filter>Extern Files\pdf</Filter>
+    </ClCompile>
+    <ClCompile Include="pdf\pdf_pattern.c">
+      <Filter>Extern Files\pdf</Filter>
+    </ClCompile>
+    <ClCompile Include="pdf\pdf_repair.c">
+      <Filter>Extern Files\pdf</Filter>
+    </ClCompile>
+    <ClCompile Include="pdf\pdf_store.c">
+      <Filter>Extern Files\pdf</Filter>
+    </ClCompile>
+    <ClCompile Include="pdf\pdf_stream.c">
+      <Filter>Extern Files\pdf</Filter>
+    </ClCompile>
+    <ClCompile Include="pdf\pdf_xref.c">
+      <Filter>Extern Files\pdf</Filter>
+    </ClCompile>
+    <ClCompile Include="pdf\pdf_page.c">
+      <Filter>Extern Files\pdf</Filter>
+    </ClCompile>
+    <ClCompile Include="fitz\dev_text.c">
+      <Filter>Extern Files\fitz</Filter>
+    </ClCompile>
+    <ClCompile Include="fitz\res_text.c">
+      <Filter>Extern Files\fitz</Filter>
+    </ClCompile>
+    <ClCompile Include="pdf\pdf_interpret.c">
+      <Filter>Extern Files\pdf</Filter>
+    </ClCompile>
+    <ClCompile Include="pdf\pdf_font.c">
+      <Filter>Extern Files\pdf</Filter>
+    </ClCompile>
+    <ClCompile Include="pdf\pdf_cmap_load.c">
+      <Filter>Extern Files\pdf</Filter>
+    </ClCompile>
+    <ClCompile Include="pdf\pdf_unicode.c">
+      <Filter>Extern Files\pdf</Filter>
+    </ClCompile>
+    <ClCompile Include="pdf\pdf_cmap_table.c">
+      <Filter>Extern Files\pdf</Filter>
+    </ClCompile>
+    <ClCompile Include="pdf\pdf_annot.c">
+      <Filter>Extern Files\pdf</Filter>
+    </ClCompile>
+    <ClCompile Include="pdf\pdf_xobject.c">
+      <Filter>Extern Files\pdf</Filter>
+    </ClCompile>
+    <ClCompile Include="DEFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OfficeFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DEFolder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DocFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DocxFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PdfFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PptFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PptxFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XlsFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XlsxFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TxtFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RtfFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtf\rtfactn.c">
+      <Filter>Extern Files\rtf</Filter>
+    </ClCompile>
+    <ClCompile Include="rtf\rtfreadr.c">
+      <Filter>Extern Files\rtf</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JpegFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TiffFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BmpFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exiv\basicio.cpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClCompile>
+    <ClCompile Include="exiv\bmpimage.cpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClCompile>
+    <ClCompile Include="exiv\canonmn.cpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClCompile>
+    <ClCompile Include="exiv\convert.cpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClCompile>
+    <ClCompile Include="exiv\datasets.cpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClCompile>
+    <ClCompile Include="exiv\easyaccess.cpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClCompile>
+    <ClCompile Include="exiv\error.cpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClCompile>
+    <ClCompile Include="exiv\exif.cpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClCompile>
+    <ClCompile Include="exiv\fujimn.cpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClCompile>
+    <ClCompile Include="exiv\futils.cpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClCompile>
+    <ClCompile Include="exiv\getopt_win32.c">
+      <Filter>Extern Files\exiv</Filter>
+    </ClCompile>
+    <ClCompile Include="exiv\image.cpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClCompile>
+    <ClCompile Include="exiv\iptc.cpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClCompile>
+    <ClCompile Include="exiv\jpgimage.cpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClCompile>
+    <ClCompile Include="exiv\localtime.c">
+      <Filter>Extern Files\exiv</Filter>
+    </ClCompile>
+    <ClCompile Include="exiv\makernote.cpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClCompile>
+    <ClCompile Include="exiv\metadatum.cpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClCompile>
+    <ClCompile Include="exiv\minoltamn.cpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClCompile>
+    <ClCompile Include="exiv\nikonmn.cpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClCompile>
+    <ClCompile Include="exiv\olympusmn.cpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClCompile>
+    <ClCompile Include="exiv\panasonicmn.cpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClCompile>
+    <ClCompile Include="exiv\pentaxmn.cpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClCompile>
+    <ClCompile Include="exiv\preview.cpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClCompile>
+    <ClCompile Include="exiv\properties.cpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClCompile>
+    <ClCompile Include="exiv\samsungmn.cpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClCompile>
+    <ClCompile Include="exiv\sigmamn.cpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClCompile>
+    <ClCompile Include="exiv\sonymn.cpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClCompile>
+    <ClCompile Include="exiv\tags.cpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClCompile>
+    <ClCompile Include="exiv\tiffcomposite.cpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClCompile>
+    <ClCompile Include="exiv\tiffimage.cpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClCompile>
+    <ClCompile Include="exiv\tiffvisitor.cpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClCompile>
+    <ClCompile Include="exiv\types.cpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClCompile>
+    <ClCompile Include="exiv\utils.cpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClCompile>
+    <ClCompile Include="exiv\value.cpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClCompile>
+    <ClCompile Include="exiv\version.cpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClCompile>
+    <ClCompile Include="exiv\xmp.cpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClCompile>
+    <ClCompile Include="exiv\xmpsidecar.cpp">
+      <Filter>Extern Files\exiv</Filter>
+    </ClCompile>
+    <ClCompile Include="zip\unzip.cpp">
+      <Filter>Extern Files\zip</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\compress.c">
+      <Filter>Extern Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\crc32.c">
+      <Filter>Extern Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\deflate.c">
+      <Filter>Extern Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzclose.c">
+      <Filter>Extern Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzlib.c">
+      <Filter>Extern Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzread.c">
+      <Filter>Extern Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzwopen.c">
+      <Filter>Extern Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzwrite.c">
+      <Filter>Extern Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inftrees.c">
+      <Filter>Extern Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\trees.c">
+      <Filter>Extern Files\zlib</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
